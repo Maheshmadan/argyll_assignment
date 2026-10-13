@@ -253,5 +253,3 @@ python -m pytest
 ```
 
 The tests cover cleaning of the published file, duplicates, ranges, timestamps, device limits, retire and install windows, the raw predict contract, validation errors, and the engineered-feature endpoint.
-#   a r g y l l _ a s s i g n m e n t  
- 
