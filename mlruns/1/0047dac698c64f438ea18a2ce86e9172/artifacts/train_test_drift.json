@@ -1,0 +1,215 @@
+{
+  "status": "ok",
+  "rows": 2000,
+  "mean_psi": 1.1119514970847917,
+  "mean_psi_status": "major_shift",
+  "features": {
+    "type_h": {
+      "psi": 0.0017343226424477909,
+      "psi_status": "stable",
+      "ks": 0.007,
+      "reference_mean": 0.09778667000125046,
+      "batch_mean": 0.1105,
+      "reference_std": 0.2970259873669592,
+      "batch_std": 0.3135119614942945
+    },
+    "type_l": {
+      "psi": 0.00041363809977806756,
+      "psi_status": "stable",
+      "ks": 0.015,
+      "reference_mean": 0.6019757409028386,
+      "batch_mean": 0.592,
+      "reference_std": 0.48949049864866345,
+      "batch_std": 0.49146312170904544
+    },
+    "type_m": {
+      "psi": 3.576477322124346e-05,
+      "psi_status": "stable",
+      "ks": 0.015,
+      "reference_mean": 0.300237589095911,
+      "batch_mean": 0.2975,
+      "reference_std": 0.45836118857270824,
+      "batch_std": 0.45715834237165576
+    },
+    "air_temperature_k": {
+      "psi": 4.715652399802781,
+      "psi_status": "major_shift",
+      "ks": 0.5775,
+      "reference_mean": 300.4065024384144,
+      "batch_mean": 298.40205,
+      "reference_std": 1.9985521166863456,
+      "batch_std": 0.9016877494454504
+    },
+    "process_temperature_k": {
+      "psi": 1.765307237144311,
+      "psi_status": "major_shift",
+      "ks": 0.336,
+      "reference_mean": 310.15875953482555,
+      "batch_mean": 309.39509999999996,
+      "reference_std": 1.5356681658455806,
+      "batch_std": 1.052229057762615
+    },
+    "rotational_speed_rpm": {
+      "psi": 0.01183025790486757,
+      "psi_status": "stable",
+      "ks": 0.019,
+      "reference_mean": 1539.867200200075,
+      "batch_mean": 1534.493,
+      "reference_std": 182.61656051380382,
+      "batch_std": 165.28790624543586
+    },
+    "torque_nm": {
+      "psi": 0.018659461877348443,
+      "psi_status": "stable",
+      "ks": 0.025,
+      "reference_mean": 39.97511566837564,
+      "batch_mean": 40.024800000000006,
+      "reference_std": 10.046732046369863,
+      "batch_std": 9.653104938826678
+    },
+    "tool_wear_min": {
+      "psi": 0.005885444411227468,
+      "psi_status": "stable",
+      "ks": 0.026,
+      "reference_mean": 108.41690633987746,
+      "batch_mean": 106.246,
+      "reference_std": 63.757812472489086,
+      "batch_std": 63.10848187050612
+    },
+    "air_temperature_k__lag1": {
+      "psi": 4.70547874561661,
+      "psi_status": "major_shift",
+      "ks": 0.597,
+      "reference_mean": 300.4061523071152,
+      "batch_mean": 298.403,
+      "reference_std": 1.9987108921183656,
+      "batch_std": 0.903316666512913
+    },
+    "air_temperature_k__lag2": {
+      "psi": 4.69575104070746,
+      "psi_status": "major_shift",
+      "ks": 0.5695,
+      "reference_mean": 300.40581468050516,
+      "batch_mean": 298.40395,
+      "reference_std": 1.9988554814900998,
+      "batch_std": 0.9049416541965571
+    },
+    "air_temperature_k__lag3": {
+      "psi": 4.68642772366041,
+      "psi_status": "major_shift",
+      "ks": 0.5975,
+      "reference_mean": 300.4054520445167,
+      "batch_mean": 298.40495,
+      "reference_std": 1.999010706020212,
+      "batch_std": 0.9067030922523652
+    },
+    "process_temperature_k__lag1": {
+      "psi": 1.7631605689578425,
+      "psi_status": "major_shift",
+      "ks": 0.329,
+      "reference_mean": 310.15830936601225,
+      "batch_mean": 309.3968,
+      "reference_std": 1.5356266957937312,
+      "batch_std": 1.0538499703468234
+    },
+    "process_temperature_k__lag2": {
+      "psi": 1.7610310470603092,
+      "psi_status": "major_shift",
+      "ks": 0.312,
+      "reference_mean": 310.1578842065775,
+      "batch_mean": 309.3985,
+      "reference_std": 1.53555972009139,
+      "batch_std": 1.0554656555284025
+    },
+    "process_temperature_k__lag3": {
+      "psi": 1.3463492569440798,
+      "psi_status": "major_shift",
+      "ks": 0.3285,
+      "reference_mean": 310.1574340377642,
+      "batch_mean": 309.4003,
+      "reference_std": 1.5354886731449284,
+      "batch_std": 1.0571707099612628
+    },
+    "rotational_speed_rpm__lag1": {
+      "psi": 0.011865365390694122,
+      "psi_status": "stable",
+      "ks": 0.0235,
+      "reference_mean": 1539.8523196198576,
+      "batch_mean": 1534.5515,
+      "reference_std": 182.61512308644194,
+      "batch_std": 165.2963924220671
+    },
+    "rotational_speed_rpm__lag2": {
+      "psi": 0.011865365390694122,
+      "psi_status": "stable",
+      "ks": 0.0185,
+      "reference_mean": 1539.8584469175942,
+      "batch_mean": 1534.527,
+      "reference_std": 182.6098768081954,
+      "batch_std": 165.3187777325976
+    },
+    "rotational_speed_rpm__lag3": {
+      "psi": 0.010844479552119094,
+      "psi_status": "stable",
+      "ks": 0.027,
+      "reference_mean": 1539.7135175690885,
+      "batch_mean": 1535.0595,
+      "reference_std": 182.14044996214048,
+      "batch_std": 167.37616604448198
+    },
+    "torque_nm__lag1": {
+      "psi": 0.018676273890412615,
+      "psi_status": "stable",
+      "ks": 0.0225,
+      "reference_mean": 39.977416531199204,
+      "batch_mean": 40.0202,
+      "reference_std": 10.04678328489183,
+      "batch_std": 9.655212165457577
+    },
+    "torque_nm__lag2": {
+      "psi": 0.018650817529458043,
+      "psi_status": "stable",
+      "ks": 0.0275,
+      "reference_mean": 39.976741277979244,
+      "batch_mean": 40.021800000000006,
+      "reference_std": 10.046176828054328,
+      "batch_std": 9.656882248427802
+    },
+    "torque_nm__lag3": {
+      "psi": 0.0076940413690834795,
+      "psi_status": "stable",
+      "ks": 0.0175,
+      "reference_mean": 39.980880330123796,
+      "batch_mean": 40.00995,
+      "reference_std": 10.040518927472542,
+      "batch_std": 9.67951527699089
+    },
+    "tool_wear_min__lag1": {
+      "psi": 0.005874137493633075,
+      "psi_status": "stable",
+      "ks": 0.012,
+      "reference_mean": 108.39902463423783,
+      "batch_mean": 106.305,
+      "reference_std": 63.766760847402956,
+      "batch_std": 63.09232897111978
+    },
+    "tool_wear_min__lag2": {
+      "psi": 0.0058528259738430816,
+      "psi_status": "stable",
+      "ks": 0.0235,
+      "reference_mean": 108.38114292859822,
+      "batch_mean": 106.3655,
+      "reference_std": 63.77626371914903,
+      "batch_std": 63.07234663265669
+    },
+    "tool_wear_min__lag3": {
+      "psi": 0.005844216757570266,
+      "psi_status": "stable",
+      "ks": 0.027,
+      "reference_mean": 108.36326122295861,
+      "batch_mean": 106.426,
+      "reference_std": 63.786601176909016,
+      "batch_std": 63.04942128203874
+    }
+  }
+}

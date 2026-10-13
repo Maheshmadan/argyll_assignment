@@ -1,0 +1,298 @@
+{
+  "imputation": {
+    "nulls_before": {
+      "rows": 10000,
+      "columns": {
+        "UDI": 0,
+        "Product ID": 0,
+        "Type": 0,
+        "Air temperature [K]": 0,
+        "Process temperature [K]": 0,
+        "Rotational speed [rpm]": 0,
+        "Torque [Nm]": 0,
+        "Tool wear [min]": 0,
+        "Machine failure": 0,
+        "TWF": 0,
+        "HDF": 0,
+        "PWF": 0,
+        "OSF": 0,
+        "RNF": 0
+      },
+      "total_nulls": 0
+    },
+    "columns": {
+      "Air temperature [K]": {
+        "n_missing": 0,
+        "method": null,
+        "note": "No nulls, so the column was not modified."
+      },
+      "Process temperature [K]": {
+        "n_missing": 0,
+        "method": null,
+        "note": "No nulls, so the column was not modified."
+      },
+      "Rotational speed [rpm]": {
+        "n_missing": 0,
+        "method": null,
+        "note": "No nulls, so the column was not modified."
+      },
+      "Torque [Nm]": {
+        "n_missing": 0,
+        "method": null,
+        "note": "No nulls, so the column was not modified."
+      },
+      "Tool wear [min]": {
+        "n_missing": 0,
+        "method": null,
+        "note": "No nulls, so the column was not modified."
+      }
+    },
+    "rows_changed": false,
+    "method_selection": {
+      "Air temperature [K]": {
+        "mask_fraction": 0.2,
+        "repeats": 3,
+        "methods": {
+          "mean": {
+            "ks": 0.10413333333333334,
+            "mean_shift": 0.004852531694756573,
+            "std_shift": 0.10411202719623254,
+            "preserved": false
+          },
+          "median": {
+            "ks": 0.09993333333333333,
+            "mean_shift": 0.006439489128018095,
+            "std_shift": 0.10387479680861984,
+            "preserved": false
+          },
+          "empirical": {
+            "ks": 0.004666666666666667,
+            "mean_shift": 0.004977938412372527,
+            "std_shift": 0.0033649815180962217,
+            "preserved": true
+          },
+          "pmm": {
+            "ks": 0.005333333333333333,
+            "mean_shift": 0.0040746767386156115,
+            "std_shift": 0.002720204410727031,
+            "preserved": true
+          }
+        },
+        "selected_method": "empirical",
+        "distribution_preserved": true
+      },
+      "Process temperature [K]": {
+        "mask_fraction": 0.2,
+        "repeats": 3,
+        "methods": {
+          "mean": {
+            "ks": 0.10486666666666666,
+            "mean_shift": 0.0035155178560195206,
+            "std_shift": 0.10683949564822452,
+            "preserved": false
+          },
+          "median": {
+            "ks": 0.10016666666666667,
+            "mean_shift": 0.008117313317652862,
+            "std_shift": 0.10654763769173203,
+            "preserved": false
+          },
+          "empirical": {
+            "ks": 0.005399999999999999,
+            "mean_shift": 0.004628194141769949,
+            "std_shift": 0.0037488050197968617,
+            "preserved": true
+          },
+          "pmm": {
+            "ks": 0.003566666666666667,
+            "mean_shift": 0.0026758151567241755,
+            "std_shift": 0.0005103826052280867,
+            "preserved": true
+          }
+        },
+        "selected_method": "pmm",
+        "distribution_preserved": true
+      },
+      "Rotational speed [rpm]": {
+        "mask_fraction": 0.2,
+        "repeats": 3,
+        "methods": {
+          "mean": {
+            "ks": 0.12096666666666667,
+            "mean_shift": 0.003283965424846646,
+            "std_shift": 0.10715420514094333,
+            "preserved": false
+          },
+          "median": {
+            "ks": 0.10226666666666667,
+            "mean_shift": 0.03616917349106658,
+            "std_shift": 0.10367349176399258,
+            "preserved": false
+          },
+          "empirical": {
+            "ks": 0.0067666666666666665,
+            "mean_shift": 0.00943800730184778,
+            "std_shift": 0.005264128477437481,
+            "preserved": true
+          },
+          "pmm": {
+            "ks": 0.005033333333333333,
+            "mean_shift": 0.0016183691007735015,
+            "std_shift": 0.0017943232817796652,
+            "preserved": true
+          }
+        },
+        "selected_method": "pmm",
+        "distribution_preserved": true
+      },
+      "Torque [Nm]": {
+        "mask_fraction": 0.2,
+        "repeats": 3,
+        "methods": {
+          "mean": {
+            "ks": 0.1035,
+            "mean_shift": 0.004443107884752365,
+            "std_shift": 0.1064552880381902,
+            "preserved": false
+          },
+          "median": {
+            "ks": 0.10336666666666668,
+            "mean_shift": 0.0059681717079958655,
+            "std_shift": 0.10644076720559388,
+            "preserved": false
+          },
+          "empirical": {
+            "ks": 0.0086,
+            "mean_shift": 0.0077618333530922136,
+            "std_shift": 0.003290088527603529,
+            "preserved": true
+          },
+          "pmm": {
+            "ks": 0.005033333333333333,
+            "mean_shift": 0.0011258871661150203,
+            "std_shift": 0.002470515448391246,
+            "preserved": true
+          }
+        },
+        "selected_method": "pmm",
+        "distribution_preserved": true
+      },
+      "Tool wear [min]": {
+        "mask_fraction": 0.2,
+        "repeats": 3,
+        "methods": {
+          "mean": {
+            "ks": 0.10143333333333333,
+            "mean_shift": 0.004027171276376113,
+            "std_shift": 0.1064854649697789,
+            "preserved": false
+          },
+          "median": {
+            "ks": 0.1008,
+            "mean_shift": 0.004115151090996574,
+            "std_shift": 0.10648112282739186,
+            "preserved": false
+          },
+          "empirical": {
+            "ks": 0.005399999999999999,
+            "mean_shift": 0.00541861393974829,
+            "std_shift": 0.0022415763726147796,
+            "preserved": true
+          },
+          "pmm": {
+            "ks": 0.004866666666666667,
+            "mean_shift": 0.0046812593029294195,
+            "std_shift": 0.00261034428681264,
+            "preserved": true
+          }
+        },
+        "selected_method": "pmm",
+        "distribution_preserved": true
+      }
+    },
+    "nulls_after": {
+      "rows": 10000,
+      "columns": {
+        "UDI": 0,
+        "Product ID": 0,
+        "Type": 0,
+        "Air temperature [K]": 0,
+        "Process temperature [K]": 0,
+        "Rotational speed [rpm]": 0,
+        "Torque [Nm]": 0,
+        "Tool wear [min]": 0,
+        "Machine failure": 0,
+        "TWF": 0,
+        "HDF": 0,
+        "PWF": 0,
+        "OSF": 0,
+        "RNF": 0
+      },
+      "total_nulls": 0
+    }
+  },
+  "repetition": {
+    "rows": 10000,
+    "unique_product_id": 10000,
+    "type_counts": {
+      "L": 6000,
+      "M": 2997,
+      "H": 1003
+    },
+    "machine_columns_found": [
+      "Machine failure"
+    ],
+    "udi_monotonic": true,
+    "strategy": "group_by_machine_column",
+    "machine_key": "Machine failure",
+    "lags": [
+      1,
+      2,
+      3
+    ],
+    "lag_source_columns": [
+      "Air temperature [K]",
+      "Process temperature [K]",
+      "Rotational speed [rpm]",
+      "Torque [Nm]",
+      "Tool wear [min]"
+    ]
+  },
+  "rows_after_lag_warmup": 9994,
+  "feature_names": [
+    "Type_H",
+    "Type_L",
+    "Type_M",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Air temperature [K]__lag1",
+    "Air temperature [K]__lag2",
+    "Air temperature [K]__lag3",
+    "Process temperature [K]__lag1",
+    "Process temperature [K]__lag2",
+    "Process temperature [K]__lag3",
+    "Rotational speed [rpm]__lag1",
+    "Rotational speed [rpm]__lag2",
+    "Rotational speed [rpm]__lag3",
+    "Torque [Nm]__lag1",
+    "Torque [Nm]__lag2",
+    "Torque [Nm]__lag3",
+    "Tool wear [min]__lag1",
+    "Tool wear [min]__lag2",
+    "Tool wear [min]__lag3"
+  ],
+  "excluded_columns": [
+    "UDI",
+    "Product ID",
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF",
+    "Machine failure",
+    "machine_key"
+  ]
+}

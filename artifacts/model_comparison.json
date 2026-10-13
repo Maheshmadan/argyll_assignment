@@ -1,0 +1,120 @@
+{
+  "best_model": "xgboost",
+  "selection_metric": "test_f1_then_roc_auc",
+  "models": {
+    "xgboost": {
+      "threshold": 0.29000000000000004,
+      "val_f1": 0.6111111111111112,
+      "train": {
+        "accuracy": 0.9644866825059397,
+        "precision": 0.5136986301369864,
+        "recall": 1.0,
+        "f1": 0.6787330316742082,
+        "threshold": 0.29000000000000004,
+        "positive_rate_true": 0.03751406777541578,
+        "positive_rate_pred": 0.07302738526947605,
+        "support_positive": 300,
+        "support_negative": 7697,
+        "confusion_matrix": [
+          [
+            7413,
+            284
+          ],
+          [
+            0,
+            300
+          ]
+        ],
+        "roc_auc": 0.9997042137629379,
+        "pr_auc": 0.9907612926195857
+      },
+      "test": {
+        "accuracy": 0.963,
+        "precision": 0.3157894736842105,
+        "recall": 0.7692307692307693,
+        "f1": 0.44776119402985076,
+        "threshold": 0.29000000000000004,
+        "positive_rate_true": 0.0195,
+        "positive_rate_pred": 0.0475,
+        "support_positive": 39,
+        "support_negative": 1961,
+        "confusion_matrix": [
+          [
+            1896,
+            65
+          ],
+          [
+            9,
+            30
+          ]
+        ],
+        "roc_auc": 0.9548503510767662,
+        "pr_auc": 0.6610235439244885
+      },
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "scale_pos_weight": 25.656666666666666,
+        "threshold": 0.29000000000000004
+      }
+    },
+    "knn": {
+      "threshold": 0.14,
+      "val_f1": 0.43137254901960786,
+      "train": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "threshold": 0.14,
+        "positive_rate_true": 0.03751406777541578,
+        "positive_rate_pred": 0.03751406777541578,
+        "support_positive": 300,
+        "support_negative": 7697,
+        "confusion_matrix": [
+          [
+            7697,
+            0
+          ],
+          [
+            0,
+            300
+          ]
+        ],
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      },
+      "test": {
+        "accuracy": 0.981,
+        "precision": 0.52,
+        "recall": 0.3333333333333333,
+        "f1": 0.40625,
+        "threshold": 0.14,
+        "positive_rate_true": 0.0195,
+        "positive_rate_pred": 0.0125,
+        "support_positive": 39,
+        "support_negative": 1961,
+        "confusion_matrix": [
+          [
+            1949,
+            12
+          ],
+          [
+            26,
+            13
+          ]
+        ],
+        "roc_auc": 0.8545352318937225,
+        "pr_auc": 0.4240220561079593
+      },
+      "params": {
+        "n_neighbors": 31,
+        "weights": "distance",
+        "threshold": 0.14
+      }
+    }
+  },
+  "train_test_drift_mean_psi": 1.1119514970847917,
+  "train_test_drift_status": "major_shift"
+}

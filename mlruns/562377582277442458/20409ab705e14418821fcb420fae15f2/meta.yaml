@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Mahesh%20A%20Madan/OneDrive%20-%20Lumiz%20Management%20Consultants%20Limited/Desktop/argyll/mlruns/562377582277442458/20409ab705e14418821fcb420fae15f2/artifacts
+end_time: 1791814362374
+entry_point_name: ''
+experiment_id: '562377582277442458'
+lifecycle_stage: active
+run_id: 20409ab705e14418821fcb420fae15f2
+run_name: xgboost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1791814362116
+status: 4
+tags: []
+user_id: Mahesh A Madan

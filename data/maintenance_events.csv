@@ -1,0 +1,6 @@
+device_id,event_time,event_type,component,notes
+MILL_01,2020-01-01T00:00:00Z,install,line,"Commissioned. Cycle order in the UCI file starts at UDI 1."
+MILL_01,2020-04-15T08:00:00Z,tool_change,tool,"Scheduled replacement. Recorded for operations and not used as a model feature."
+MILL_01,2020-07-02T08:00:00Z,inspection,process,"No fault found."
+MILL_02,2020-06-01T00:00:00Z,install,line,"Second mill. Configured for product type L only."
+MILL_02,2021-01-01T00:00:00Z,retire,line,"Removed from service. Readings at or after this time are rejected."

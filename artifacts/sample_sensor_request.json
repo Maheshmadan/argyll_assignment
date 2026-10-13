@@ -1,0 +1,50 @@
+{
+  "device_id": "MILL_01",
+  "log_to_mlflow": false,
+  "records": [
+    {
+      "timestamp": "2020-01-01T00:00:00Z",
+      "type": "M",
+      "product_id": "M14860",
+      "udi": 1,
+      "air_temperature_k": 298.1,
+      "process_temperature_k": 308.6,
+      "rotational_speed_rpm": 1551,
+      "torque_nm": 42.8,
+      "tool_wear_min": 0
+    },
+    {
+      "timestamp": "2020-01-01T00:01:00Z",
+      "type": "L",
+      "product_id": "L47181",
+      "udi": 2,
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 308.7,
+      "rotational_speed_rpm": 1408,
+      "torque_nm": 46.3,
+      "tool_wear_min": 3
+    },
+    {
+      "timestamp": "2020-01-01T00:02:00Z",
+      "type": "L",
+      "product_id": "L47182",
+      "udi": 3,
+      "air_temperature_k": 298.1,
+      "process_temperature_k": 308.5,
+      "rotational_speed_rpm": 1498,
+      "torque_nm": 49.4,
+      "tool_wear_min": 5
+    },
+    {
+      "timestamp": "2020-01-01T00:03:00Z",
+      "type": "L",
+      "product_id": "L47183",
+      "udi": 4,
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 308.6,
+      "rotational_speed_rpm": 1433,
+      "torque_nm": 39.5,
+      "tool_wear_min": 7
+    }
+  ]
+}

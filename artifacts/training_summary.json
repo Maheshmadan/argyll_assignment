@@ -1,0 +1,53 @@
+{
+  "best_model": "xgboost",
+  "threshold": 0.29000000000000004,
+  "test_metrics": {
+    "accuracy": 0.963,
+    "precision": 0.3157894736842105,
+    "recall": 0.7692307692307693,
+    "f1": 0.44776119402985076,
+    "threshold": 0.29000000000000004,
+    "positive_rate_true": 0.0195,
+    "positive_rate_pred": 0.0475,
+    "support_positive": 39,
+    "support_negative": 1961,
+    "confusion_matrix": [
+      [
+        1896,
+        65
+      ],
+      [
+        9,
+        30
+      ]
+    ],
+    "roc_auc": 0.9548503510767662,
+    "pr_auc": 0.6610235439244885
+  },
+  "comparison": {
+    "xgboost": {
+      "test_f1": 0.44776119402985076,
+      "test_roc_auc": 0.9548503510767662,
+      "test_recall": 0.7692307692307693,
+      "test_precision": 0.3157894736842105
+    },
+    "knn": {
+      "test_f1": 0.40625,
+      "test_roc_auc": 0.8545352318937225,
+      "test_recall": 0.3333333333333333,
+      "test_precision": 0.52
+    }
+  },
+  "model_path": "C:\\Users\\Mahesh A Madan\\OneDrive - Lumiz Management Consultants Limited\\Desktop\\argyll\\artifacts\\model.joblib",
+  "tracking_uri": "sqlite:///C:/Users/Mahesh A Madan/OneDrive - Lumiz Management Consultants Limited/Desktop/argyll/mlflow.db",
+  "run_id": "0047dac698c64f438ea18a2ce86e9172",
+  "train_rows": 7997,
+  "test_rows": 2000,
+  "train_failure_rate": 0.03751406777541578,
+  "test_failure_rate": 0.0195,
+  "nulls_before": 0,
+  "imputation_applied": false,
+  "machine_strategy": "single_process_stream",
+  "n_features": 23,
+  "mean_test_psi": 1.1119514970847917
+}

@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "type_h": 0.0,
+      "type_l": 0.0,
+      "type_m": 1.0,
+      "air_temperature_k": 300.8,
+      "process_temperature_k": 312.0,
+      "rotational_speed_rpm": 1443.0,
+      "torque_nm": 53.3,
+      "tool_wear_min": 151.0,
+      "air_temperature_k__lag1": 300.9,
+      "air_temperature_k__lag2": 300.9,
+      "air_temperature_k__lag3": 301.0,
+      "process_temperature_k__lag1": 312.1,
+      "process_temperature_k__lag2": 312.1,
+      "process_temperature_k__lag3": 312.2,
+      "rotational_speed_rpm__lag1": 1617.0,
+      "rotational_speed_rpm__lag2": 1359.0,
+      "rotational_speed_rpm__lag3": 2710.0,
+      "torque_nm__lag1": 31.0,
+      "torque_nm__lag2": 51.7,
+      "torque_nm__lag3": 9.7,
+      "tool_wear_min__lag1": 148.0,
+      "tool_wear_min__lag2": 146.0,
+      "tool_wear_min__lag3": 143.0
+    }
+  ]
+}
